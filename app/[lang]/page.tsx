@@ -260,9 +260,9 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
   </div>
 </section>
   {/* Success Stories */}
-<section className="py-12 md:py-20 px-4 sm:px-6">
+<section className="py-16 md:py-20 px-4 sm:px-6">
   <motion.h2
-    className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 md:mb-14 text-gray-800"
+    className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 md:mb-14 text-gray-800"
     initial="hidden"
     whileInView="visible"
     viewport={{ once: true }}
@@ -283,9 +283,9 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
         centerPadding: "0px",
         beforeChange: handleBeforeChange,
         responsive: [
-          { breakpoint: 1024, settings: { slidesToShow: 2, centerMode: true, centerPadding: "20px" } },
-          { breakpoint: 768, settings: { slidesToShow: 1, centerMode: true, centerPadding: "40px" } },
-          { breakpoint: 640, settings: { slidesToShow: 1, centerMode: true, centerPadding: "20px" } },
+          { breakpoint: 1024, settings: { slidesToShow: 2, centerMode: true, centerPadding: "30px" } },
+          { breakpoint: 768, settings: { slidesToShow: 1, centerMode: true, centerPadding: "60px" } },
+          { breakpoint: 640, settings: { slidesToShow: 1, centerMode: true, centerPadding: "40px" } },
         ],
       };
 
@@ -296,12 +296,12 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
               item: { name: string; story: string; role: string; image: string },
               idx: number
             ) => (
-              <div key={idx} className="px-2 sm:px-4">
+              <div key={idx} className="px-3 sm:px-4">
                 <motion.div
                   initial={{ opacity: 0, y: 40 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4 }}
-                  className={`rounded-xl md:rounded-2xl p-6 md:p-8 flex flex-col items-center text-center transition-all duration-500
+                  className={`rounded-xl md:rounded-2xl p-5 md:p-8 flex flex-col items-center text-center transition-all duration-500
                     ${
                       active === idx
                         ? "bg-gradient-to-br from-yellow-100 via-orange-50 to-white border-2 border-yellow-400 shadow-2xl scale-105"
@@ -309,20 +309,20 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
                     }`}
                 >
                   {/* Profile Image */}
-                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-yellow-400 mb-4 md:mb-6 shadow-lg">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-3 md:border-4 border-yellow-400 mb-3 sm:mb-4 md:mb-6 shadow-lg">
                     <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                   </div>
 
                   {/* Icon */}
                   <Quote
-                    className={`w-8 h-8 md:w-10 md:h-10 mb-3 md:mb-4 ${
+                    className={`w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mb-2 sm:mb-3 md:mb-4 ${
                       active === idx ? "text-orange-500" : "text-yellow-400"
                     }`}
                   />
 
                   {/* Story */}
                   <p
-                    className={`italic leading-relaxed mb-4 md:mb-6 transition-colors text-sm md:text-base ${
+                    className={`italic leading-relaxed mb-3 sm:mb-4 md:mb-6 transition-colors text-xs sm:text-sm md:text-base ${
                       active === idx ? "text-gray-800" : "text-gray-500"
                     }`}
                   >
@@ -331,7 +331,7 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
 
                   {/* Name + Role */}
                   <h3
-                    className={`font-semibold text-base md:text-lg ${
+                    className={`font-semibold text-sm sm:text-base md:text-lg ${
                       active === idx ? "text-gray-900" : "text-gray-700"
                     }`}
                   >
