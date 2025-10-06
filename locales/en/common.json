@@ -1,0 +1,195 @@
+{
+  "title": "Welcome to Shivneri Chaha",
+  "tagline": "Franchise Opportunities Available!",
+  "subTagline": "Start your own tea business with us and serve the authentic taste of India.",
+  
+  "whyChooseTitle": "✨ Why Choose Us – Our Premium Features",
+  "whyChoose": [
+    { "title": "Low Setup Cost", "desc": "Start your outlet with a complete setup in just ₹2,00,000." },
+    { "title": "Comprehensive Training", "desc": "Get professional training and quality control guidance." },
+    { "title": "Transparent Guidelines", "desc": "We ensure clear rules and a simple process for success." },
+    { "title": "Ongoing Support", "desc": "24/7 business support to help you grow smoothly." }
+  ],
+
+  "ctaTitle": "Start Your Business Today!",
+  "ctaSubtitle": "Join Shivneri Tea and become a successful entrepreneur. Get complete guidance and support from our experienced team.",
+  "ctaWhatsapp": "Apply for Franchise",
+  "ctaPhone": "Call Now",
+
+  "testimonialsTitle": "What Our Partners Say",
+  "testimonials": [
+    { 
+      "name": "Ramesh Patil", 
+      "role": "Franchise Owner – Pune", 
+      "review": "Starting a Shivneri Tea franchise has been life-changing. Customers love the authentic taste, and the support from the team is excellent.", 
+      "image": "/images/testimonials/ramesh.jpg" 
+    },
+    { 
+      "name": "Sneha Kulkarni", 
+      "role": "Franchise Owner – Mumbai", 
+      "review": "Affordable setup, great margins, and a brand that people already trust. I was able to reach breakeven within 6 months.", 
+      "image": "/images/testimonials/sneha.jpg" 
+    },
+    { 
+      "name": "Amit Joshi", 
+      "role": "Franchise Partner – Nashik", 
+      "review": "The training and guidance are top-notch. I never felt alone in this journey – Shivneri Tea team is always there to support.", 
+      "image": "/images/testimonials/amit.jpg" 
+    }
+  ],
+
+  "franchiseTitle": "Franchise Details",
+  "franchiseRulesTitle": "Franchise Rules",
+  "franchiseRules": [
+    "Free tea distribution on Shiv Jayanti celebrations",
+    "No tobacco, alcohol, or unrelated snacks allowed",
+    "Maintain Shivneri Tea brand standards consistently"
+  ],
+  
+  "franchiseFeesTitle": "Franchise Fees",
+  "franchiseFees": "₹2,00,000 (includes setup, branding, training, and initial stock)",
+  
+  "franchiseTrainingTitle": "Training Process",
+  "franchiseTraining": [
+    "Comprehensive training at Lasalgaon HQ",
+    "3 days dedicated onsite support during launch"
+  ],
+
+  "successStoriesTitle": "Success Stories",
+  "successStories": [
+    { 
+      "name": "Ravi Kumar", 
+      "role": "Franchise Owner – Pune", 
+     "story": "Started with one shop, and within 2 years, expanded to 3 outlets successfully." ,
+       "image": "/images/users/ravi.avif"
+    },
+    { 
+      "name": "sham patil", 
+      "role": "Franchise Owner – Pune", 
+      "story": "Started with one shop, and within 2 years, expanded to 3 outlets successfully." 
+    , "image": "/images/users/sham.jpg"
+    },
+    { 
+      "name": "Sneha Sharma", 
+      "role": "Franchise Owner – Mumbai", 
+      "story": "Achieved breakeven in just 6 months with the strong support of the Shivneri Tea team." 
+    , "image": "/images/users/sharma.jpg"
+    },
+    { 
+      "name": "Arjun Patil", 
+      "role": "Franchise Owner – Nagpur", 
+      "story": "Grew customer base by 200% in the first year thanks to our trusted brand." 
+  , "image": "/images/users/arjun.jpg"
+    }
+  ],
+
+
+  "title1": "Photo Gallery",
+  "subtitle": "View photos of our successful shops, training programs, and events",
+  "categories": ["All", "Shops", "Training", "Event", "Products"],
+  "images": [
+    {
+      "src": "/images/shop1.jpg",
+      "category": "shops",
+      "title": "Pune Branch - Main Road",
+      "description": "Our successful branch in Pune"
+    },
+    {
+      "src": "/images/shop2.jpg",
+      "category": "training",
+      "title": "Mumbai Training Center",
+      "description": "Training sessions for franchisees"
+    }
+  ]
+,
+
+
+  "faqTitle": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": "What is the initial investment?",
+      "answer": "The total investment is ₹2,00,000 including complete setup, branding, and initial stock."
+    },
+    {
+      "question": "Do I get training?",
+      "answer": "Yes, we provide training at Lasalgaon along with 3 days of onsite support during your launch."
+    },
+    {
+      "question": "Do you help in marketing?",
+      "answer": "Yes, we provide branding material and marketing guidance to help you attract customers."
+    }
+  ],
+  "franchiseFaq": [
+    {
+      "question": "What is the total investment required?",
+      "answer": "The total investment is ₹2,00,000 which includes complete setup, branding, equipment, and initial stock."
+    },
+    {
+      "question": "How long does the training take?",
+      "answer": "Training takes 7 days at our Lasalgaon center, plus 3 days of onsite support at your location."
+    },
+    {
+      "question": "What kind of support do you provide?",
+      "answer": "We provide complete training, equipment setup, branding materials, and ongoing business support."
+    }
+  ],
+  
+"gallery": {
+  "title": "📸 Photo Gallery",
+  "subtitle": "View photos of our successful shops, training programs, events, and products",
+  "categories": {
+    "all": "All",
+    "shops": "Shops",
+    "training": "Training",
+    "event": "Event",
+    "products": "Products"
+  },
+  "exploreButton": "Explore Our Gallery",
+  "ctaTitle": "You Can Also Be Successful!",
+  "ctaSubtitle": "Join our franchise network and become a successful entrepreneur",
+  "joinNow": "Join Now",
+  "callNow": "Call Now"
+},
+"about": {
+    "heroTitle": "About Shivneri Tea",
+    "heroSubtitle": "Brewing tradition, culture and happiness — one cup at a time ☕",
+    "brandStoryTitle": "Our Brand Story",
+    "brandStoryDesc": "Shivneri Tea...... The revered deity of undivided Maharashtra, Chhatrapati Shivaji Maharaj, established Hindavi Swarajya and created history. Maintaining that same self-respect, we named our business \"Shivneri Tea\". Any business must have energy, consistency, and restraint for it to be successful. Today, while running the \"Shivneri Tea\" business, we are very happy to say that we are moving towards success in a short time. Today, many people want to become successful by doing business, but they are confused about where to invest and what business to do. Overcoming a difficult situation like COVID, we entered this business and are running the tea business with the goal of making our mark. Our tea has a unique taste and is people's first choice. If anyone goes regularly from our shop, they will definitely come to \"Shivneri Tea\". The response of people in just 2 to 3 years is truly incredible. Quality flavored Shendri jaggery tea and a unique style of tea shops and a pleasant atmosphere are our features. We are always ready to serve our customers and make a hard effort to provide excellent service. \"Shivneri Tea\" outlets will open not only in entire Maharashtra but in entire India. At the same time, we are moving forward with the goal of reaching our Maharashtra's name through \"Shivneri Tea\". While starting our business, we have always tried to provide better service than other tea businesses and will definitely continue to do so in the future. With the aim of giving every customer a unique and personalized tea house experience, today Shivneri Tea is a prestigious brand.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To serve high-quality, affordable tea while empowering local entrepreneurs through our franchise model. We are committed to spreading joy, warmth, and connection with every cup — while keeping our cultural roots alive.",
+    "valuesTitle": "Our Core Values",
+    "values": {
+      "authenticityTitle": "Authenticity",
+      "authenticityDesc": "We preserve the true taste of traditional Indian tea with premium ingredients and authentic recipes.",
+      "qualityTitle": "Quality & Care",
+      "qualityDesc": "Every cup is prepared with love, care, and the highest quality standards.",
+      "communityTitle": "Community",
+      "communityDesc": "We believe in togetherness — our franchises empower local communities and small entrepreneurs."
+    },
+    "stats": {
+      "outlets": "Franchise Outlets",
+      "customers": "Happy Customers",
+      "taste": "Authentic Taste"
+    }
+  },
+  "contact": {
+    "heroTitle": "Get in Touch with Shivneri Tea",
+    "heroSubtitle": "We’re here to answer your questions and help you on your tea franchise journey.",
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form and our team will reach you within 24 hours.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "contactNumber": "Contact Number",
+      "city": "City",
+      "zipCode": "Zip/Postal Code",
+      "message": "Leave a message here",
+      "submit": "Send Message"
+    },
+    "cta": {
+      "title": "Join the Shivneri Tea Family",
+      "subtitle": "Become a part of our growing tea franchise network today!",
+      "button": "Start Your Franchise"
+    }
+  }}
