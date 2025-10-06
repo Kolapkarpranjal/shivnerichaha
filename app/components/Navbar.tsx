@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   const navLinkClass = (active: boolean) =>
-    `px-4 py-2 rounded-full transition-colors duration-200 border border-transparent ${
+    `px-2 md:px-4 py-1.5 md:py-2 rounded-full transition-colors duration-200 border border-transparent text-sm md:text-base ${
       active
         ? "bg-orange-600 text-white shadow"
         : "text-gray-700 hover:bg-orange-100 hover:text-orange-700"
@@ -39,16 +39,16 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center p-4 shadow bg-white sticky top-0 z-50">
+    <nav className="flex justify-between items-center p-3 md:p-4 shadow bg-white sticky top-0 z-50">
       {/* Logo */}
       <img
         src="/images/logo.png"
         alt="Shivneri Tea Logo"
-        className="h-10 w-auto"
+        className="h-8 md:h-10 w-auto"
       />
 
       {/* Desktop Nav (show from large screens to avoid overlap) */}
-      <ul className="hidden lg:flex space-x-2 font-medium items-center">
+      <ul className="hidden lg:flex space-x-1 xl:space-x-2 font-medium items-center">
         <li>
           <Link
             href={`/${currentLang}`}
@@ -114,12 +114,12 @@ export default function Navbar() {
       </ul>
 
       {/* Right Side */}
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-1 md:space-x-2">
         {["mr", "hi", "en"].map((loc) => (
           <button
             key={loc}
             onClick={() => switchLocale(loc)}
-            className={`px-3 py-1 rounded-full font-semibold transition ${
+            className={`px-2 md:px-3 py-1 rounded-full font-semibold transition text-xs md:text-sm ${
               currentLang === loc
                 ? "bg-orange-600 text-white shadow"
                 : "bg-gray-100 text-gray-700 hover:bg-orange-100 hover:text-orange-700"
@@ -131,17 +131,17 @@ export default function Navbar() {
 
         {/* Mobile Hamburger (visible until large screens) */}
         <button
-          className="lg:hidden text-gray-700"
+          className="lg:hidden text-gray-700 ml-1"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          {menuOpen ? <X size={28} /> : <Menu size={28} />}
+          {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md lg:hidden">
-          <ul className="flex flex-col items-center space-y-2 py-4 font-medium">
+        <div className="absolute top-full left-0 w-full bg-white shadow-lg lg:hidden border-t border-gray-100">
+          <ul className="flex flex-col items-center space-y-1 py-3 font-medium">
             <li>
               <Link
                 href={`/${currentLang}`}
