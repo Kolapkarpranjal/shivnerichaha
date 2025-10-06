@@ -87,7 +87,7 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
         <div className="absolute inset-0 bg-black/50"></div>
 
         {/* Content Wrapper */}
-        <div className="absolute inset-0 flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 md:px-16 py-8 sm:py-10 md:py-0 gap-4 sm:gap-6 md:gap-8">
+        <div className="absolute inset-0 flex flex-col md:flex-row justify-center md:justify-between items-center px-4 sm:px-6 md:px-16 py-6 sm:py-8 md:py-0 gap-4 sm:gap-6 md:gap-8">
           
           {/* Left Side: Hero Text */}
           <div className="text-white max-w-xl text-center md:text-left">
@@ -101,7 +101,7 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
             </motion.span>
 
             <motion.h1
-              className="text-2xl sm:text-3xl md:text-6xl font-extrabold mb-4 md:mb-6 drop-shadow-xl tracking-tight leading-tight"
+              className="text-xl sm:text-2xl md:text-6xl font-extrabold mb-3 sm:mb-4 md:mb-6 drop-shadow-xl tracking-tight leading-tight"
               initial={{ opacity: 0, y: -40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -110,7 +110,7 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
             </motion.h1>
 
             <motion.p
-              className="text-base sm:text-lg md:text-2xl mb-6 md:mb-8 drop-shadow-md leading-relaxed"
+              className="text-sm sm:text-base md:text-2xl mb-4 sm:mb-6 md:mb-8 drop-shadow-md leading-relaxed"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.3 }}
@@ -147,34 +147,34 @@ const handleBeforeChange = useCallback((_: number, next: number) => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.8 }}
-            className="w-full max-w-xs sm:max-w-sm md:w-[320px] bg-white/20 backdrop-blur-lg border border-white/30 rounded-2xl shadow-2xl p-4 md:p-6 text-left text-white"
+            className="w-full max-w-[280px] sm:max-w-sm md:w-[320px] bg-white/20 backdrop-blur-lg border border-white/30 rounded-xl md:rounded-2xl shadow-2xl p-3 md:p-6 text-left text-white mx-auto md:mx-0"
           >
-            <h3 className="text-base md:text-lg font-semibold mb-3 md:mb-4 flex items-center gap-2">
-              <span className="bg-purple-500 p-1.5 md:p-2 rounded-full text-sm md:text-base">📞</span> Apply Now
+            <h3 className="text-sm md:text-lg font-semibold mb-2 md:mb-4 flex items-center gap-2">
+              <span className="bg-purple-500 p-1 md:p-2 rounded-full text-xs md:text-base">📞</span> Apply Now
             </h3>
-            <div className="space-y-3 md:space-y-4">
+            <div className="space-y-2 md:space-y-4">
               <a
                 href="tel:+918888594800"
-                className="flex items-center justify-between bg-white/20 p-2.5 md:p-3 rounded-xl hover:bg-white/30 transition"
+                className="flex items-center justify-between bg-white/20 p-2 md:p-3 rounded-lg md:rounded-xl hover:bg-white/30 transition"
               >
-                <span className="font-medium text-sm md:text-base">8888594800</span>
-                <span className="text-green-400 text-sm">Instant Call</span>
+                <span className="font-medium text-xs md:text-base">8888594800</span>
+                <span className="text-green-400 text-xs md:text-sm">Instant Call</span>
               </a>
               <a
                 href="https://wa.me/918888594800"
-                className="flex items-center justify-between bg-white/20 p-2.5 md:p-3 rounded-xl hover:bg-white/30 transition"
+                className="flex items-center justify-between bg-white/20 p-2 md:p-3 rounded-lg md:rounded-xl hover:bg-white/30 transition"
               >
-                <span className="font-medium text-sm md:text-base">WhatsApp</span>
-                <span className="text-green-400 text-sm">Chat Now</span>
+                <span className="font-medium text-xs md:text-base">WhatsApp</span>
+                <span className="text-green-400 text-xs md:text-sm">Chat Now</span>
               </a>
-              <div className="flex items-center justify-between bg-white/20 p-2.5 md:p-3 rounded-xl">
-                <span className="font-medium text-sm md:text-base">Lasalgaon</span>
-                <span className="text-orange-400 text-sm">Nashik</span>
+              <div className="flex items-center justify-between bg-white/20 p-2 md:p-3 rounded-lg md:rounded-xl">
+                <span className="font-medium text-xs md:text-base">Lasalgaon</span>
+                <span className="text-orange-400 text-xs md:text-sm">Nashik</span>
               </div>
 
               <Link
                 href={`/${currentLang}/contact`}
-                className="block w-full text-center py-2.5 md:py-3 rounded-xl bg-gradient-to-r from-orange-600/90 via-red-600/80 to-yellow-600/70 font-semibold hover:opacity-90 text-sm md:text-base"
+                className="block w-full text-center py-2 md:py-3 rounded-lg md:rounded-xl bg-gradient-to-r from-orange-600/90 via-red-600/80 to-yellow-600/70 font-semibold hover:opacity-90 text-xs md:text-base"
               >
                 Fill Complete Form
               </Link>
